@@ -1,0 +1,372 @@
+@charset "UTF-8";
+.box {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.box-items {
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+/* flex-center*/
+.box-center {
+  -webkit-justify-content: center;
+  justify-content: center;
+  -moz-box-pack: center;
+  box-pack: center;
+}
+.flex-6 {
+  display: block;
+  -webkit-box-flex: 6;
+  -webkit-flex: 6;
+  -ms-flex: 6;
+  flex: 6;
+  width: 0;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+}
+.flex-5 {
+  display: block;
+  -webkit-box-flex: 5;
+  -webkit-flex: 5;
+  -ms-flex: 5;
+  flex: 5;
+  width: 0;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+}
+.flex-4 {
+  display: block;
+  -webkit-box-flex: 4;
+  -webkit-flex: 4;
+  -ms-flex: 4;
+  flex: 4;
+  width: 0;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+}
+.flex-3 {
+  display: block;
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  width: 0;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+}
+.flex-2 {
+  display: block;
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  width: 0;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+}
+.flex-1 {
+  display: block;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 0;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+}
+.single-line {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+}
+.relative {
+  position: relative !important;
+}
+.none {
+  display: none !important;
+}
+.pointer {
+  cursor: pointer;
+}
+.spacing {
+  padding-bottom: 50px !important;
+}
+.overhide {
+  overflow: hidden;
+}
+.link {
+  color: #3f9eff;
+  cursor: pointer;
+  margin: 0 5px;
+}
+.color {
+  color: #3f9eff !important;
+}
+.white {
+  color: #fff;
+}
+.gray {
+  color: #96999D;
+}
+.red {
+  color: red;
+}
+.green {
+  color: #64C473;
+}
+.color-3 {
+  color: #333;
+}
+.color-6 {
+  color: #666;
+}
+.color-9 {
+  color: #999;
+}
+.overlay {
+  pointer-events: none;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.bold {
+  font-weight: bold;
+}
+.middle {
+  vertical-align: middle !important;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 8;
+  height: 60px;
+  width: 100%;
+  background: #3f9eff;
+  color: #fff;
+}
+#header .logo {
+  padding: 20px;
+}
+#header .el-dropdown {
+  margin-top: 10px;
+  cursor: pointer;
+}
+#header .el-dropdown img {
+  width: 40px;
+  margin-right: 10px;
+}
+#menu {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 180px;
+  height: 100%;
+  background: #f1f4fd;
+  overflow: hidden;
+  border-right: solid 1px #e6e6e6;
+}
+#container {
+  margin-top: 60px;
+  margin-left: 180px;
+}
+#main {
+  padding: 15px;
+}
+#content {
+  margin-top: 15px;
+  overflow: hidden;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+.el-menu {
+  background: #f1f4fd;
+  border-right: none;
+}
+.el-submenu__title {
+  color: #6f7277;
+}
+.el-submenu__title i {
+  color: #6f7277;
+}
+.el-submenu__title:hover {
+  color: gray;
+}
+.el-submenu__title:hover i {
+  color: gray;
+}
+.el-menu-item {
+  color: #6f7277;
+}
+.el-menu-item a {
+  color: gray;
+}
+.el-menu-item.is-active {
+  background: #ecf5ff;
+  color: gray;
+}
+.el-menu-item:focus,
+.el-menu-item:hover {
+  color: gray;
+  background: #ecf5ff;
+}
+.el-menu-item-group__title {
+  padding: 0;
+}
+.el-pagination {
+  text-align: right;
+}
+.el-dialog__body {
+  padding: 10px 20px;
+}
+.tableViewContainer > table {
+  width: 100%;
+}
+.tableViewContainer > table > thead > tr {
+  background-color: #e4e4e4;
+}
+.tableViewContainer > table > thead > tr > th {
+  font-size: 14px;
+  line-height: 40px;
+  color: #666;
+  text-align: center;
+  font-weight: bold;
+}
+.tableViewContainer > table > tbody > tr > td {
+  padding: 4px;
+  color: #333333;
+  line-height: 2.5;
+  font-size: 14px;
+  text-align: center;
+  border-bottom: 1px solid #e4e4e4;
+}
+.tableViewContainer > table > tbody > tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+.tableViewContainer > table > tbody > tr:hover {
+  background-color: #ecf5ff;
+}
+.modelFormContainer > table {
+  width: 100%;
+}
+.modelFormContainer > table > tr > td:nth-child(2n+1) {
+  width: 80px;
+}
+.modelFormContainer > table > tr > td {
+  padding: 4px;
+  font-size: 14px;
+  line-height: 2;
+  color: #666;
+}
+.block {
+  margin-top: 20px;
+  display: block;
+}
+.btnListContainer {
+  margin-bottom: 10px;
+}
+.globalLoading .el-loading-spinner {
+  width: 130px;
+  height: 130px;
+  left: 50%;
+  margin-left: -65px;
+  margin-top: -65px !important;
+  padding-top: 35px;
+  background-color: rgba(51, 51, 51, 0.8);
+  border-radius: 8px;
+}
+.globalLoading .el-loading-spinner i {
+  font-size: 30px;
+  color: #fff;
+}
+.globalLoading .el-loading-spinner .el-loading-text {
+  font-size: 16px;
+  color: #fff;
+}
+.noData {
+  line-height: 2;
+  text-align: center;
+  color: #3f9eff;
+  font-size: 14px;
+}
+.clearFloat {
+  width: 0px;
+  height: 0px;
+  clear: both;
+  visibility: hidden;
+  display: block;
+}
+.el-breadcrumb {
+  font-size: 15px;
+  line-height: 2;
+}
+.el-form-item__label {
+  text-align: left;
+}
+.treeMainContainer {
+  position: absolute;
+  left: 190px;
+  top: 0px;
+  width: 200px;
+  height: 300px;
+  border: 1px solid #d0cdcd;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #979696;
+}
+.treeMainContainer .active {
+  background-color: #7a7a7a;
+}
+.treeMainContainer .tree {
+  padding: 10px;
+}
+.treeMainContainer .tree > li {
+  border-bottom: 1px solid #d0cdcd;
+}
+.treeMainContainer .tree > li > div {
+  line-height: 2.5;
+  color: #fff;
+}
+.treeMainContainer .tree > li > div > i {
+  float: right;
+  margin-top: 8px;
+}
+.treeMainContainer .tree > li > div > span {
+  display: inline-block;
+  margin-right: 10px;
+  text-indent: 5px;
+  font-size: 13px;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+}
